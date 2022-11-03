@@ -388,6 +388,9 @@ svg {
 .right-main-section {
     padding: 0px 53px 0px 53px;
     margin-right: 70px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
 }
 
 .new-updates-wrap,
@@ -516,10 +519,11 @@ svg {
 }
 
 @media screen and (max-width:1300px) {
-    .right-main-section{
+    .right-main-section {
         margin-right: 0;
     }
-    .twitter-search{
+
+    .twitter-search {
         margin-right: 0;
     }
 }
