@@ -13,7 +13,6 @@ body {
 /* header */
 header {
     height: 53px;
-    background-color: #000000;
     display: grid;
     justify-content: space-around;
     text-align: center;
@@ -36,12 +35,19 @@ header {
     justify-content: center;
 }
 
+.left-section,
+.right-section {
+    background-color: #000000;
+}
+
 .middle-section {
     justify-content: space-between !important;
     border-left: 1px solid #3f3e3e;
     border-right: 1px solid #3f3e3e;
     padding-right: 10px;
     padding-left: 10px;
+    backdrop-filter: blur(11px);
+    background-color: #00000085;
 }
 
 
@@ -535,11 +541,12 @@ svg {
     }
 
     .side-bar,
-    .middle-section ,
-    .right-section{
+    .middle-section,
+    .right-section {
         display: none;
     }
-    .left-section{
+
+    .left-section {
         justify-content: flex-start;
         margin-left: 20px;
     }
