@@ -527,3 +527,21 @@ svg {
         margin-right: 0;
     }
 }
+
+@media screen and (max-width:768px) {
+    .main-wrap {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    .side-bar,
+    .middle-section ,
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+
+}
