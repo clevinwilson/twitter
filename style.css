@@ -33,6 +33,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .left-section,
@@ -69,6 +70,7 @@ header {
     background-color: #202327;
     color: #ffffff;
     margin-right: 70px;
+    border-left: 0;
 
 }
 
@@ -79,12 +81,19 @@ header {
     border-bottom: 1px solid #1d9bf0;
 }
 
+.twitter-search:focus+.search-icon-wrap {
+    border-left: 1px solid #1d9bf0;
+    border-top: 1px solid #1d9bf0;
+    border-bottom: 1px solid #1d9bf0;
+}
+
 
 .search-icon-wrap {
     padding: 10px;
     background-color: #202327;
     border: 1px solid #202327;
     border-radius: 23px 0px 0px 23px;
+    border-right: 0;
 }
 
 .fa-search {
