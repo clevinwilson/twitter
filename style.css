@@ -295,6 +295,15 @@ svg {
 
 .input-icons {
     font-size: 17px;
+    padding: 10px 10px 10px 10px;
+    transition: all .35s;
+    cursor: pointer;
+}
+
+.input-icons:hover {
+    background: #152631a1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
 }
 
 .left-btns {
