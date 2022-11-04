@@ -137,26 +137,46 @@ svg {
 }
 
 .side-bar-items {
-    margin: 24px;
+    display: flex;
+    justify-content: revert;
+    align-items: center;
+    height: 55px;
+    margin-left: 48px;
 }
 
-.side-bar-items>i {
+.sidebar-item-wrap>i {
     font-size: 21px;
     color: #ffffff;
 }
 
-.side-bar-items>p {
+.sidebar-item-wrap>p {
     display: inline;
     color: #ffffff;
     font-family: 'Roboto';
     font-weight: 500;
     margin-left: 8px;
     font-size: 19px;
+    margin-bottom: 0;
 }
 
-.side-bar-items>img {
+.sidebar-item-wrap {
+    padding: 8px 13px 8px 13px;
+    background-color: #000000;
+    border-radius: 31px;
+    transition: all .35s;
+    cursor: pointer;
+}
+
+.sidebar-item-wrap:hover {
+    padding: 8px 13px 8px 13px;
+    background-color: #161616;
+    border-radius: 31px;
+}
+
+.sidebar-item-wrap>img {
     width: 25px;
 }
+
 
 .tweet-btn-wrap>button {
     padding: 11px 70px 11px 70px;
@@ -165,6 +185,7 @@ svg {
     background-color: rgb(29, 155, 240);
     color: white;
     font-weight: 500;
+    margin-top: 10px;
     letter-spacing: .5px;
 }
 
