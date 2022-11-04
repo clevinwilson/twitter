@@ -419,16 +419,46 @@ svg {
     transition: all .15s;
 }
 
+.tweet-comment-wrap i,
+.tweet-retweet-wrap i,
+.tweet-like-wrap i,
+.tweet-share-wrap i {
+    padding: 7px;
+    border-radius: 50%;
+    transition: all .15s;
+}
+
+.tweet-comment-wrap:hover i {
+    color: rgb(29, 155, 240);
+    background-color: #1d9bf030;
+}
+
 .tweet-comment-wrap:hover {
     color: rgb(29, 155, 240);
+}
+
+
+
+.tweet-retweet-wrap:hover i {
+    background-color: #0580052b;
 }
 
 .tweet-retweet-wrap:hover {
     color: rgb(6, 152, 6);
 }
 
+
+.tweet-like-wrap:hover i {
+    background-color: rgb(255 0 204 / 14%);
+}
+
 .tweet-like-wrap:hover {
     color: rgb(255, 0, 204);
+}
+
+.tweet-share-wrap:hover i {
+    background-color: #1d9bf030;
+
 }
 
 .tweet-share-wrap:hover {
