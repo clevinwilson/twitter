@@ -253,6 +253,11 @@ svg {
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
+}
+
+.audience-wrap:hover {
+    background-color: #139af529;
 }
 
 .tweet-input {
