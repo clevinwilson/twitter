@@ -33,6 +33,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.right-section {
     flex-direction: row-reverse;
 }
 
